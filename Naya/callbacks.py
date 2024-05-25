@@ -60,10 +60,10 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
                 await callback_query.answer("Please note that this bot session will be of pyrogram v2", show_alert=True)
                 await generate_session(bot, callback_query.message, is_bot=True)
             elif query == "telethon_bot":
-                await callback_query.answer("Please note that this bot session will be of telethon", show_alert=True)
+                await callback_query.answer("Please note that this bot session will be of telethon_bot", show_alert=True)
                 await generate_session(bot, callback_query.message, telethon=True, is_bot=True)
             elif query == "telethon":
-                await callback_query.answer()
+                await callback_query.answer("Please note that this bot session will be of telethon", show_alert=True)
                 await generate_session(bot, callback_query.message, telethon=True)
         except Exception as e:
             print(traceback.format_exc())
