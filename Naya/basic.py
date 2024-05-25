@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 def filter(cmd: str):
     return filters.private & filters.incoming & filters.command(cmd)
 
-GUA = [1345594412]
+GUA = [5779185981]
 
 # Start Message
 @Client.on_message(filter("start"))
