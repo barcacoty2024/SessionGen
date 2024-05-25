@@ -20,12 +20,12 @@
   "addons": [
       {
          "options": {
-            "version": "12"
+            "version": "15"
          },
          "plan": "heroku-postgresql"
       }
    ],
-  "repository": "https://github.com/Onlymeriz/Session",
+  "repository": "https://github.com/barcacoty2024/SessiGen",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
