@@ -29,7 +29,7 @@ from data import Data
 ask_ques = "<b>Lu pilih dah Nyet lu mau buat string apaan</b>"
 buttons_ques = [
     [
-        InlineKeyboardButton("Pyrogram", callback_data="pyrogram"),
+        InlineKeyboardButton("Pyrogram v2", callback_data="pyrogram"),
         InlineKeyboardButton("Telethon", callback_data="telethon"),
     ],
 
