@@ -46,9 +46,10 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
         ty = "Telethon"
     else:
         ty = "Pyrogram"
+    if is_bot old_pyro:
+          ty += "v2"
     if is_bot:
-        ty += "v2"
-        ty += " Bot"
+        ty += "Bot"
     user_id = msg.chat.id
     api_id = API_ID
     api_hash = API_HASH
