@@ -9,10 +9,10 @@
 
 ## Support
 
-Channel :- [Iya Gabut](https://t.me/kontenfilm)
+Channel :- [Iya Gabut](https://t.me/Disney_storeDan)
 
-Group Chat :- [Kynan Support](https://t.me/kynansupport)
+Group Chat :- [Dan Support](https://t.me/musik_supportdan)
 
 ### Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Onlymeriz/Session)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/barcacoty2024/SesiGen)
