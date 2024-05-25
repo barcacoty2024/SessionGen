@@ -3,11 +3,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = os.getenv("API_ID", "12857763").strip()
-API_HASH = os.getenv("API_HASH", "7b71e8bca0d5e1c6d8383ae818d9ec8d").strip()
-BOT_TOKEN = os.getenv("BOT_TOKEN", "6375262996:AAFZBXDHSjs6Yn5M_1CbV_XS-tWQqG_wYX4").strip()
-DATABASE_URL = os.getenv("DATABASE_URL", "postgres://hzuxnrbc:C0n4fUsTXHixFOwGeso1YkuBtUJIt9Cb@rosie.db.elephantsql.com/hzuxnrbc").strip() # Not a necessary variable anymore but you can add to get stats
-MUST_JOIN = os.getenv("MUST_JOIN", "SiArabSupport")
+API_ID = os.getenv("API_ID", "26477680").strip()
+API_HASH = os.getenv("API_HASH", "b0d8504752cc1ecf52009ece2bdef0b8").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "6621888094:AAFiXgDSPC2PwFnlU_AqFptimOser6AuJmE").strip()
+DATABASE_URL = os.getenv("DATABASE_URL", "postgres://uek4iv7la3bvm5:p83d5f560af48e547a6f00a853fad2e28344b937dbe448095ff2bf53cd54eef7c@cbbirn8v9855bl.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/dase5nfs9hvv3").strip() # Not a necessary variable anymore but you can add to get stats
+MUST_JOIN = os.getenv("MUST_JOIN", "musik_supportdan")
 
 if not API_ID:
     raise SystemExit("No API_ID found. Exiting...")
