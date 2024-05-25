@@ -13,7 +13,14 @@ from pyrogram.errors import (
     SessionPasswordNeeded,
     PasswordHashInvalid
 )
-
+from pyrogram.errors import (
+    ApiIdInvalid as ApiIdInvalid1,
+    PhoneNumberInvalid as PhoneNumberInvalid1,
+    PhoneCodeInvalid as PhoneCodeInvalid1,
+    PhoneCodeExpired as PhoneCodeExpired1,
+    SessionPasswordNeeded as SessionPasswordNeeded1,
+    PasswordHashInvalid as PasswordHashInvalid1
+)
 from telethon.errors import (
     ApiIdInvalidError,
     PhoneNumberInvalidError,
@@ -22,8 +29,6 @@ from telethon.errors import (
     SessionPasswordNeededError,
     PasswordHashInvalidError
 )
-from env import API_ID, API_HASH
-from data import Data
 
 
 ask_ques = "<b>Lu pilih dah Nyet lu mau buat string apaan</b>"
