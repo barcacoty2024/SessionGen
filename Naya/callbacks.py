@@ -72,4 +72,4 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
 
 
 ERROR_MESSAGE = "Buset Eror Jink! \n\n**Error** : {} " \
-            "\n\nCoba Lu Ngadu Sono Ke @SiArabSupport"
+            "\n\nCoba Lu Ngadu Sono Ke @musik_supportdan"
